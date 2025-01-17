@@ -1,0 +1,2 @@
+# Unreachable Code and Incorrect Return Value in Julia
+This example demonstrates an issue with unreachable code and an incorrect return value in a Julia function. The function `myfunction` intends to return the square of the input `x`, regardless of its sign. However, there's a flaw: the `else` condition introduces a logically incorrect calculation and an unreachable `return 0` statement. 
